@@ -66,7 +66,9 @@ export default function Home() {
             <Telegram textColor={textColor} />
           </Sheet>
         </Box>
-        <Discord textColor={textColor}/>
+        <Box sx={{ backgroundColor: 'pink', py: '20px' }}>
+          <Discord textColor={textColor}/>
+        </Box>
       </Box>
     </main>
   )

@@ -121,9 +121,9 @@ const Telegram = (props: { textColor: string }) => {
           >
             <span
               style={{
-                clipPath: 'polygon(100% 9%,18% 100%,100% 100%)',
-                width: '9px',
-                height: '18px',
+                clipPath: 'polygon(100% 0, 100% 100%, 0 100%, 50% 58%)',
+                width: '11px',
+                height: '17px',
                 display: 'block',
                 backgroundColor: textColor === '#FFFFFF' ? 'black' : '#fff',
               }}
